@@ -1,0 +1,46 @@
+body {
+margin:0;
+padding:0;
+background-color: #f7feff;
+cursor: url('../remote.png'), auto;
+}
+
+
+.mytext {
+  font-size: 70px;
+  color: #F7F7F8;
+  text-align: left;
+  font-family: 'Gloock', sans-serif;
+  font-family: 'Almarai', sans-serif;
+  font-family: 'Cairo', sans-serif;
+  font-family: 'Prompt', sans-serif;
+  position: absolute;
+  left: 30px;
+  top: 60px;
+}
+
+.banner {
+  white-space: nowrap;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.banner span {
+  display: inline-block;
+  padding-right: 2em;
+  animation: scroll 5s linear infinite;
+ font-family: 'Prompt', sans-serif;
+ color: #CCF656;
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+
+
